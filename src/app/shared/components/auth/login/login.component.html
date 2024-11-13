@@ -1,0 +1,21 @@
+<div class="row mt-3">
+    <div class="col-md-4 offset-4">
+        <div class="card">
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+                    <div class="form-group"><label for="email">Email</label>
+                        <input [(ngModel)]="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group"><label for="password">Password</label>
+                        <input [(ngModel)]="password" class="form-control" name="password" placeholder="Password"
+                            required>
+                    </div>
+                    <div class="text-right">
+                        <button class="btn btn-success mr-3" (click)="onRgister()" type="button">Register</button>
+                        <button class="btn btn-primary" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

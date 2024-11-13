@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "bf3a",
+      "fname": "Manoj",
+      "lname": "Waghmare",
+      "email": "manojwaghmare400@gmail.com",
+      "password": "Manoj@12"
+    },
+    {
+      "id": "4898",
+      "fname": "Vaibhav",
+      "lname": "Somvad",
+      "email": "vaibhavsom12@gmail.com",
+      "password": "vaibhav@5656"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "36bf",
+      "title": "Angular material ",
+      "description": "Rxjs Libraby using",
+      "date": "2024-11-13T12:25:05.479Z"
+    },
+    {
+      "id": "edb7",
+      "title": "Adity Wagmare",
+      "description": "Good Boy",
+      "date": "2024-11-13T12:56:52.389Z"
+    },
+    {
+      "id": "d3bd",
+      "title": "Manoj Wagmare",
+      "description": "Angular Developer",
+      "date": "2024-11-13T12:58:56.660Z"
+    },
+    {
+      "id": "cc21",
+      "title": "vaibhav",
+      "description": "Somvad",
+      "date": "2024-11-13T13:07:06.090Z"
+    },
+    {
+      "id": "d164",
+      "title": "as",
+      "description": "aa",
+      "date": "2024-11-13T14:54:35.743Z"
+    }
+  ]
+}
