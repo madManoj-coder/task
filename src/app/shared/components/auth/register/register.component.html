@@ -1,22 +1,32 @@
 <div class="row mt-3">
-    <div class="col-md-4 offset-4">
-            <div class="card">
-                <div class="card-body">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
                 <form (ngSubmit)="onSubmit()">
                     <div class="form-group">
-                        <label for="fname">First Name</label>
-                        <input [(ngModel)]="user.fname" class="form-control" name="fname" placeholder="First Name" required>
+                        <label for="fname"><strong>First Name</strong></label>
+                        <input [(ngModel)]="user.fname" class="form-control" name="fname" placeholder="Enter First Name"
+                            required>
                     </div>
-                   <div class="form-group">
-                    <label for="lname">Last Name</label>
-                    <input [(ngModel)]="user.lname" class="form-control" name="lname" placeholder="Last Name" required>
-                </div>
-                   <div class="form-group"><label for="email">Email</label>
-                    <input [(ngModel)]="user.email" class="form-control" name="email" placeholder="Email" required>    
-                   </div>
-                   <div class="form-group"><label for="password">Password</label>
-                    <input [(ngModel)]="user.password" class="form-control" name="password" placeholder="Password" required>
-                </div>
+                    <div class="form-group">
+                        <label for="lname"><strong>Last Name</strong></label>
+                        <input [(ngModel)]="user.lname" class="form-control" name="lname" placeholder="Enter Last Name"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><strong>Email</strong></label>
+                        <input [(ngModel)]="user.email" class="form-control" name="email" placeholder="Enter Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><strong>Password</strong></label>
+                        <input [(ngModel)]="user.password" class="form-control" name="password" placeholder="Enter Password"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword"><strong>Confirm Password</strong></label>
+                        <input [(ngModel)]="user.confirmPassword" class="form-control" name="confirmPassword" placeholder="Enter Confirm Password"
+                            required>
+                    </div>
                     <div class="text-right">
                         <button class="btn btn-primary" type="submit">Register</button>
                     </div>

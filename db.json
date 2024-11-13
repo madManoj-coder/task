@@ -13,6 +13,13 @@
       "lname": "Somvad",
       "email": "vaibhavsom12@gmail.com",
       "password": "vaibhav@5656"
+    },
+    {
+      "id": "7206",
+      "fname": "Manoj",
+      "lname": "Waghmare",
+      "email": "manojwaghmare400@gmail.com",
+      "password": "Asdasr@123"
     }
   ],
   "blogs": [

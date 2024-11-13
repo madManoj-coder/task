@@ -12,11 +12,13 @@ export class AuthService {
   public register(user : any) : Observable<any>{
     return this._http.post(this.apiUrl,user);
   }
+
   public login(email : string,password :string) : Observable<any>{
     return this._http.get<any[]>(this.apiUrl,{
       params : {email, password}
     });
   }
+  
   public logout(){
     localStorage.getItem('currentUser')
     this.router.navigate(['/login'])
@@ -25,6 +27,7 @@ export class AuthService {
   public getCurrentuser(){
     return JSON.parse(localStorage.getItem('currentUser') || '{}')
   }
+
   public setCurrentuser(user:any){
     localStorage.setItem('currentUser', JSON.stringify(user))
   }

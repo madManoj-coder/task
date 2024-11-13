@@ -8,7 +8,7 @@ import { AuthService } from 'src/app/shared/services/service/auth.service';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent implements OnInit {
-  user = { fname : '', lname : '', email : '', password :''}
+  user = { fname : '', lname : '', email : '', password :'', confirmPassword : ''}
   constructor(private authService : AuthService, private router :Router) { }
 
   ngOnInit(): void {

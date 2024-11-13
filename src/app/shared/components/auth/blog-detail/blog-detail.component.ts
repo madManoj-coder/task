@@ -8,13 +8,13 @@ import { BlogService } from 'src/app/shared/services/service/blog.service';
   styleUrls: ['./blog-detail.component.scss']
 })
 export class BlogDetailComponent implements OnInit {
-   blog : any;
+  blog: any;
 
-  constructor(private route : ActivatedRoute, private blogServices : BlogService) { }
+  constructor(private route: ActivatedRoute, private blogServices: BlogService) { }
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id')!;
-    this.blogServices.getBlog(id).subscribe(blog =>{
+    this.blogServices.getBlog(id).subscribe(blog => {
       this.blog = blog;
     })
   }
