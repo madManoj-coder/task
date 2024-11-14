@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-6 offset-md-2">
+    <div class="col-md-6 offset-md-3">
         <div class="card">
             <div class="card-body">
                 <form (ngSubmit)="onSubmit()">
@@ -12,7 +12,7 @@
                         <textarea type="text" [(ngModel)]="blog.description"  placeholder="description" required class="form-control" name="description"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="date">Date</label>
+                        <label for="date" >Date</label>
                         <input type="datetime.local" [(ngModel)]="blog.date" class="form-control" name="date" placeholder="date" required>
                     </div>
                     <button class="btn btn-primary" type="button" (click)="close.emit()">Cancel</button>

@@ -17,6 +17,7 @@ export class BlogListComponent implements OnInit {
        this.blogs = blogs;
     })
   }
+  
   openBlogModel(){
     this.isModalOpen = true
   }

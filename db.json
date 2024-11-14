@@ -1,57 +1,50 @@
 {
   "users": [
     {
-      "id": "bf3a",
+      "id": "6673",
       "fname": "Manoj",
       "lname": "Waghmare",
       "email": "manojwaghmare400@gmail.com",
-      "password": "Manoj@12"
-    },
-    {
-      "id": "4898",
-      "fname": "Vaibhav",
-      "lname": "Somvad",
-      "email": "vaibhavsom12@gmail.com",
-      "password": "vaibhav@5656"
-    },
-    {
-      "id": "7206",
-      "fname": "Manoj",
-      "lname": "Waghmare",
-      "email": "manojwaghmare400@gmail.com",
-      "password": "Asdasr@123"
+      "password": "Asdasr@123",
+      "confirmPassword": "Asdasr@123"
     }
   ],
   "blogs": [
     {
-      "id": "36bf",
-      "title": "Angular material ",
-      "description": "Rxjs Libraby using",
-      "date": "2024-11-13T12:25:05.479Z"
+      "id": "53e5",
+      "title": "hh",
+      "description": "hhh",
+      "date": "2024-11-14T00:35:53.455Z"
     },
     {
-      "id": "edb7",
-      "title": "Adity Wagmare",
-      "description": "Good Boy",
-      "date": "2024-11-13T12:56:52.389Z"
+      "id": "bd69",
+      "title": "d",
+      "description": "d",
+      "date": "2024-11-14T00:37:28.453Z"
     },
     {
-      "id": "d3bd",
-      "title": "Manoj Wagmare",
-      "description": "Angular Developer",
-      "date": "2024-11-13T12:58:56.660Z"
+      "id": "c090",
+      "title": "jjj",
+      "description": "jjjj",
+      "date": "2024-11-14T00:40:45.568Z"
     },
     {
-      "id": "cc21",
-      "title": "vaibhav",
-      "description": "Somvad",
-      "date": "2024-11-13T13:07:06.090Z"
+      "id": "1823",
+      "title": "gg",
+      "description": "gg",
+      "date": "2024-11-14T00:41:58.806Z"
     },
     {
-      "id": "d164",
-      "title": "as",
-      "description": "aa",
-      "date": "2024-11-13T14:54:35.743Z"
+      "id": "7bf6",
+      "title": "d",
+      "description": "d",
+      "date": "2024-11-14T00:56:34.847Z"
+    },
+    {
+      "id": "0c81",
+      "title": "q",
+      "description": "q",
+      "date": "2024-11-14T00:56:48.205Z"
     }
   ]
 }

@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 export class AuthService {
   private apiUrl = 'http://localhost:3000/users'
   constructor(private _http : HttpClient, private router :Router) { }
+
   public register(user : any) : Observable<any>{
     return this._http.post(this.apiUrl,user);
   }
@@ -18,7 +19,7 @@ export class AuthService {
       params : {email, password}
     });
   }
-  
+
   public logout(){
     localStorage.getItem('currentUser')
     this.router.navigate(['/login'])

@@ -4,7 +4,6 @@ import { RegisterComponent } from './shared/components/auth/register/register.co
 import { LoginComponent } from './shared/components/auth/login/login.component';
 import { BlogModalComponent } from './shared/components/auth/blog-modal/blog-modal.component';
 import { BlogListComponent } from './shared/components/auth/blog-list/blog-list.component';
-import { BlogDetailComponent } from './shared/components/auth/blog-detail/blog-detail.component';
 
 const routes: Routes = [
   
@@ -18,10 +17,10 @@ const routes: Routes = [
     path : 'login', component : LoginComponent
   },
   {
-    path : 'blogs', component : BlogListComponent
+    path : 'blogs', component : BlogModalComponent
   },
   {
-    path : 'blogs/:id', component : BlogDetailComponent
+    path : 'blogs/:id', component : BlogListComponent
   },
 
 ];

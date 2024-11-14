@@ -1,7 +1,8 @@
+
 <div *ngFor="let blog of blogs">
     <h2>{{blog.title}}</h2>
     <p>{{blog.description}}</p>
-    <button class="btn bttn-primary" [routerLink]="['/blog', blog.id]">Read More</button>
+    <button class="btn btn-primary" [routerLink]="['/blog', blog.id]">Read More</button>
 </div>
 <button class="btn btn-primary" (click)="openBlogModel()">Add Blog</button>
 <app-blog-modal *ngIf="isModalOpen" (close)="isModalOpen=false"></app-blog-modal>

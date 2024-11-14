@@ -10,6 +10,11 @@ import { BlogListComponent } from './shared/components/auth/blog-list/blog-list.
 import { BlogDetailComponent } from './shared/components/auth/blog-detail/blog-detail.component';
 import { BlogModalComponent } from './shared/components/auth/blog-modal/blog-modal.component';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './shared/components/auth/navbar/navbar.component';
+import { HomeComponent } from './shared/components/auth/home/home.component';
+import { MaterialModule } from './shared/material/material/material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ConfirmDialogBoxComponent } from './shared/components/auth/confirm-dialog-box/confirm-dialog-box.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +23,18 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     BlogListComponent,
     BlogDetailComponent,
-    BlogModalComponent
+    BlogModalComponent,
+    NavbarComponent,
+    HomeComponent,
+    ConfirmDialogBoxComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

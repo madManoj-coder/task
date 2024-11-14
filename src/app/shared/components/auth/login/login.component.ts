@@ -8,27 +8,34 @@ import { AuthService } from 'src/app/shared/services/service/auth.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  public email  = '';
+  public email = '';
   public password = '';
-  constructor(private authService : AuthService, private router : Router) { }
+  constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
-    
+
   }
 
-  public onSubmit(){
-    this.authService.login(this.email, this.password).subscribe((users)=>{
-      if(users.length){
+  public onSubmit() {
+    this.authService.login(this.email, this.password).subscribe((users) => {
+      if (users.length) {
         localStorage.setItem('currentUser', JSON.stringify(users[0]));
         this.router.navigate(['/blogs'])
-      }else {
+      } else {
         alert('Invalid Credentials')
       }
     })
   }
 
+  onLogin() {
 
-  public onRgister(){
+    // if (!this.email && this.password === i) {
+    //   this.router.navigate(['login'])
+    // }
+  }
+
+
+  public onRgister() {
     this.router.navigate(['/register'])
   }
 
